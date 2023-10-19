@@ -1,8 +1,6 @@
 import { Client, Events, GatewayIntentBits } from "discord.js";
 import "dotenv/config";
 
-const { Client, Events, GatewayIntentBits } = require("discord.js");
-
 // Create a new client instance
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
