@@ -1,0 +1,28 @@
+{
+  "name": "bean-bot-discord-event-gateway",
+  "version": "1.0.0",
+  "description": "Receiving the events from Discord to send to various microservices",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EternalLiquet/bean-bot-discord-event-gateway.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "astolfo"
+  ],
+  "author": "EternalLiquet",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/EternalLiquet/bean-bot-discord-event-gateway/issues"
+  },
+  "homepage": "https://github.com/EternalLiquet/bean-bot-discord-event-gateway#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
+}
